@@ -1,0 +1,29 @@
+{
+	"Input" : "",
+	"Output" : "",
+	"Backup" : false,
+	"BaseSectionName" : "",
+	"MapFilePath" : "",	
+	"SignatureMode" : false,
+	"Virtualizer" : {
+		"EntryPoint" : true
+	},
+	"Obfuscator" : {
+		"EntryPoint" : true,
+		"Function": [
+			""
+		]		
+	},
+	"Packer" : {
+		"Enable" : true,
+		"SymbolData" : false,
+		"UseAntiTamper" : {
+			"Enable" : true,
+			"Message" : "The program exits with abnormal behavior. Please run it again."
+		},
+		"Extension" : [
+		],
+		"RawData" : [
+		]
+	}	
+}
