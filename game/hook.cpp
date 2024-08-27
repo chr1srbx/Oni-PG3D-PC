@@ -9,10 +9,8 @@
 #include <thread>
 #include <random>
 #include "MinHook.h"
-#include "../protection/al-khaser/Anti-Debug/CloseHandle_InvalidHandle.h"
 #include <stdexcept>
 #include "../main.h"
-#include "../auth/flux.hpp"
 #include "MinHook.h"
 #include "../obfString.hpp"
 #include "../VMP/VMProtectSDK.h"
